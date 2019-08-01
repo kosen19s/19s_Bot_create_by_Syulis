@@ -1,0 +1,3157 @@
+{
+   "Starter": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "rpg_trigger":{
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger" : 0,
+            "select": 0
+
+         },
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "rpg" : 0,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "NEET": {
+      "up_hp": [
+         0,
+         1
+      ],
+      "up_mp": [
+         0,
+         1
+      ],
+      "up_str": [
+         1,
+         1
+      ],
+      "up_def": [
+         1,
+         1
+      ],
+      "up_msr": [
+         0,
+         1
+      ],
+      "up_mdf": [
+         0,
+         1
+      ],
+      "up_spd": [
+         1,
+         1
+      ]
+   },
+   "Warrior": {
+      "up_hp": [
+         1,
+         3
+      ],
+      "up_mp": [
+         0,
+         2
+      ],
+      "up_str": [
+         1,
+         3
+      ],
+      "up_def": [
+         1,
+         3
+      ],
+      "up_msr": [
+         0,
+         1
+      ],
+      "up_mdf": [
+         1,
+         2
+      ],
+      "up_spd": [
+         0,
+         1
+      ]
+   },
+   "Wizard": {
+      "up_hp": [
+         0,
+         2
+      ],
+      "up_mp": [
+         1,
+         3
+      ],
+      "up_str": [
+         0,
+         1
+      ],
+      "up_def": [
+         0,
+         1
+      ],
+      "up_msr": [
+         1,
+         3
+      ],
+      "up_mdf": [
+         1,
+         3
+      ],
+      "up_spd": [
+         0,
+         2
+      ]
+   },
+   "432897451209261057": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": [
+            "\u8fd1\u757f\u5730\u65b9",
+            "\u795e\u6238",
+            "\u96fb\u5b50\u30fb\u96fb\u6c17",
+            "\u304a\u3068\u3053\u306e\u3053",
+            "robocon"
+         ]
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "541986296969822219": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "548749558461628419": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "400572672708182017": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "497063234851962881": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "528529790299275264": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "557185698176958474": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603941700951605258": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "584515528446574592": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "596608072194195476": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "583569933514964992": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "328185048018714624": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "561785761523957765": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "406631553209335808": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603487410487296000": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603615036010921994": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "569130597616713739": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "346932779772018689": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "484605916985950239": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "585850932198244354": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603758657095860224": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "359248931638738944": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603462377874259968": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "589290275780952066": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "551426481855922217": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "600282769461084172": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603606147634823180": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603838090993467402": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "589463325868425217": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "595156617641721866": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "568043117937164288": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "600301459028049920": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "477793522779684875": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "561377933734707220": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "606152416349650944": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": [
+            "\u6771\u5317\u5730\u65b9",
+            "\u4ed9\u53f0",
+            "\u305d\u306e\u4ed6",
+            "\u304a\u3068\u3053\u306e\u3053",
+            "robocon"
+         ]
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "521958252280545280": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "570593881964412968": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "285374888175206401": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "594480355881517062": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "568670715071692801": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "605739339934334997": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "587984490412900363": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "599423913877045258": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "572759493142773761": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "589427572702576652": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "576387240452947968": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603564251000602624": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "589772519951826945": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "604214183206191124": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603838408212611102": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "565858421086355458": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "569028134540935170": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "596121630930108426": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603244620993789952": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "595510816032292882": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "593802390910533633": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "603584449250066434": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "593987442047057945": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "598510616377950239": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "571299954203820042": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "354996809447505920": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "532104529009967104": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "605195420645326848": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "286403813777080330": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   },
+   "595399532489998367": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "GrassLand"
+      },
+      "trigger": {
+         "data": 1,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            3,
+            6
+         ]
+      }
+   }
+}

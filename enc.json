@@ -1,0 +1,9 @@
+{
+  "place": ["Home","GrassLand","Cave"],
+  "GrassLand": {
+    "enc": ["スライム","スライムベス","ぶちスライム"]
+  },
+  "Cave": {
+    "enc": ["ドラキー"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "weapon": ["素手,CuSword"],
+  "素手": {
+    "STR_Plus": 0,
+    "mura": [-1,1]
+  },
+  "CuSword": {
+    "STR_Plus": 5,
+    "mura": [-1,3]
+  }
+}
