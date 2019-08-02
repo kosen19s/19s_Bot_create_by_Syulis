@@ -867,38 +867,6 @@ async def on_message(message):
                 return
             try:
                 global main
-                # global re_hp
-                # global vol_hp
-                # global re_mp
-                # global vol_mp
-                # global ch_monster_hp
-                # global ch_monster_mp
-                # global ch_monster_str
-                # global ch_monster_def
-                # global ch_monster_msr
-                # global ch_monster_mdf
-                # global ch_monster_spd
-                # global mp_pass
-                # global mp_pass_user
-                # global way
-                # global way_user
-                # global way_user_name
-                # global way_monster_name
-                # global user_turn
-                # global monster_turn
-                # global escape_trigger
-                # global item_trigger
-                # global item_name
-                # global turn_system
-                # global magic_flag
-                # global magic_flag_user
-                # global dm_user_ac
-                # global dm_mons_ac
-                # global monster_stat
-                # global enc_pass
-                # global place_enc
-                # global weapon_stat
-
                 if text == "6" and user_stat[user_id]["rpg"]["rpg_trigger"]["vt"] == 0:
                     user_stat[user_id]["rpg"]["rpg_trigger"]["rpg"] = 0
                     await message.channel.send("RPGモード解除。")
