@@ -4,7 +4,8 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
-         "rpg_trigger":{
+         "rpg_trigger": {
+            "rpg": 0,
             "vt": 0,
             "mp_pass": 0,
             "mp_pass_user": 0,
@@ -16,9 +17,11 @@
             "monster_turn": 0,
             "turn_system": 0,
             "escape_trigger": 0,
-            "item_trigger" : 0,
-            "select": 0
-
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
          },
          "job": "NEET",
          "job_lv": 1,
@@ -48,17 +51,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
-         "rpg" : 0,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -154,15 +180,28 @@
    },
    "432897451209261057": {
       "official": {
-         "\u4e00\u822c\u5f79\u8077": [
-            "\u8fd1\u757f\u5730\u65b9",
-            "\u795e\u6238",
-            "\u96fb\u5b50\u30fb\u96fb\u6c17",
-            "\u304a\u3068\u3053\u306e\u3053",
-            "robocon"
-         ]
+         "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -191,16 +230,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -209,6 +272,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -237,16 +319,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -255,6 +361,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -283,16 +408,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -301,6 +450,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -329,16 +497,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -347,6 +539,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -375,16 +586,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -393,6 +628,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -421,16 +675,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -439,6 +717,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -467,16 +764,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -485,6 +806,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -513,16 +853,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -531,6 +895,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -559,16 +942,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -577,6 +984,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -605,16 +1031,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -623,6 +1073,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -651,16 +1120,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -669,6 +1162,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -697,16 +1209,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -715,6 +1251,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -743,16 +1298,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -761,6 +1340,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -789,16 +1387,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -807,6 +1429,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -835,16 +1476,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -853,6 +1518,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -881,16 +1565,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -899,6 +1607,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -927,16 +1654,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -945,6 +1696,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -973,16 +1743,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -991,6 +1785,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1019,16 +1832,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1037,6 +1874,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1065,16 +1921,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1083,6 +1963,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1111,16 +2010,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1129,6 +2052,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1157,16 +2099,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1175,6 +2141,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1203,16 +2188,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1221,6 +2230,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1249,16 +2277,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1267,6 +2319,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1295,16 +2366,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1313,6 +2408,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1341,16 +2455,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1359,6 +2497,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1387,16 +2544,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1405,6 +2586,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1433,16 +2633,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1451,6 +2675,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1479,16 +2722,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1497,6 +2764,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1525,16 +2811,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1543,6 +2853,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1571,16 +2900,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1589,6 +2942,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1617,16 +2989,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1635,6 +3031,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1663,16 +3078,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1681,6 +3120,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1709,30 +3167,67 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
    "606152416349650944": {
       "official": {
-         "\u4e00\u822c\u5f79\u8077": [
-            "\u6771\u5317\u5730\u65b9",
-            "\u4ed9\u53f0",
-            "\u305d\u306e\u4ed6",
-            "\u304a\u3068\u3053\u306e\u3053",
-            "robocon"
-         ]
+         "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1761,16 +3256,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1779,6 +3298,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1807,16 +3345,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1825,6 +3387,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1853,16 +3434,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1871,6 +3476,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1899,16 +3523,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1917,6 +3565,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1945,16 +3612,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -1963,6 +3654,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -1991,16 +3701,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2009,6 +3743,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2037,16 +3790,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2055,6 +3832,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2083,16 +3879,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2101,6 +3921,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2129,16 +3968,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2147,6 +4010,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2175,16 +4057,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2193,6 +4099,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2221,16 +4146,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2239,6 +4188,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2267,16 +4235,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2285,6 +4277,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2313,16 +4324,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2331,6 +4366,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2359,16 +4413,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2377,6 +4455,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2405,16 +4502,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2423,6 +4544,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2451,16 +4591,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2469,6 +4633,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2497,16 +4680,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2515,6 +4722,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2543,16 +4769,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2561,6 +4811,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2589,16 +4858,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2607,6 +4900,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2635,16 +4947,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2653,6 +4989,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2681,16 +5036,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2699,6 +5078,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2727,16 +5125,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2745,6 +5167,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2773,16 +5214,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2791,6 +5256,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2819,16 +5303,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2837,6 +5345,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2865,16 +5392,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2883,6 +5434,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2911,16 +5481,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2929,6 +5523,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -2957,16 +5570,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -2975,6 +5612,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -3003,16 +5659,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -3021,6 +5701,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -3049,16 +5748,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -3067,6 +5790,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -3095,16 +5837,40 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
          ]
       }
    },
@@ -3113,6 +5879,25 @@
          "\u4e00\u822c\u5f79\u8077": []
       },
       "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
          "job": "NEET",
          "job_lv": 1,
          "Lv": 1,
@@ -3141,16 +5926,375 @@
          "skill_way": [],
          "EXP": 0,
          "G": 0,
-         "place": "GrassLand"
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
       },
       "trigger": {
          "data": 1,
+         "rpg": 0,
          "\u5f79\u8077\u6c7a\u3081": 0
       },
       "others": {
          "result": [
-            3,
-            6
+            0,
+            0
+         ]
+      }
+   },
+   "message.author.id": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "vtr": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "way_user": 0,
+            "way_user_name": 0,
+            "way_monster_name": 0,
+            "monster_name": 0
+         },
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "Home"
+      },
+      "trigger": {
+         "data": 1,
+         "rpg": 0,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            0,
+            0
+         ]
+      }
+   },
+   "600146384481550347": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
+      },
+      "trigger": {
+         "data": 1,
+         "rpg": 0,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            0,
+            0
+         ]
+      }
+   },
+   "585424179709607940": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
+      },
+      "trigger": {
+         "data": 1,
+         "rpg": 0,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            0,
+            0
+         ]
+      }
+   },
+   "568370291240075275": {
+      "official": {
+         "\u4e00\u822c\u5f79\u8077": []
+      },
+      "rpg": {
+         "rpg_trigger": {
+            "rpg": 0,
+            "vt": 0,
+            "mp_pass": 0,
+            "mp_pass_user": 0,
+            "magic_flag": 0,
+            "magic_flag_user": 0,
+            "down_mp": 0,
+            "down_mp_user": 0,
+            "user_turn": 0,
+            "monster_turn": 0,
+            "turn_system": 0,
+            "escape_trigger": 0,
+            "item_trigger": 0,
+            "place_trigger": 0,
+            "re_hp": 0,
+            "re_mp": 0,
+            "Lv_up": 0
+         },
+         "job": "NEET",
+         "job_lv": 1,
+         "Lv": 1,
+         "HP": 5,
+         "ch_user_hp": 5,
+         "MP": 3,
+         "ch_user_mp": 3,
+         "STR": 2,
+         "ch_user_str": 2,
+         "DEF": 1,
+         "ch_user_def": 1,
+         "MSR": 1,
+         "ch_user_msr": 1,
+         "MDF": 1,
+         "ch_user_mdf": 1,
+         "SPD": 3,
+         "ch_user_spd": 3,
+         "item": {
+            "Medicinal_herbs": 1
+         },
+         "have weapon": [
+            "Sude"
+         ],
+         "weapon": "Sude",
+         "magic_way": [],
+         "skill_way": [],
+         "EXP": 0,
+         "G": 0,
+         "place": "Home",
+         "vtr": 0,
+         "ch_monster_hp": 0,
+         "ch_monster_mp": 0,
+         "ch_monster_str": 0,
+         "ch_monster_def": 0,
+         "ch_monster_msr": 0,
+         "ch_monster_mdf": 0,
+         "ch_monster_spd": 0,
+         "val_hp": 0,
+         "val_mp": 0,
+         "dm_user_ac": 0,
+         "dm_mons_ac": 0,
+         "up_hp_user": 0,
+         "up_mp_user": 0,
+         "up_str_user": 0,
+         "up_def_user": 0,
+         "up_msr_user": 0,
+         "up_mdf_user": 0,
+         "up_spd_user": 0,
+         "way_user": 0,
+         "way_user_name": 0,
+         "way_monster_name": 0,
+         "monster_name": 0
+      },
+      "trigger": {
+         "data": 1,
+         "rpg": 0,
+         "\u5f79\u8077\u6c7a\u3081": 0
+      },
+      "others": {
+         "result": [
+            0,
+            0
          ]
       }
    }
