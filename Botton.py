@@ -60,6 +60,7 @@ user_id = None
 monster_name = None
 kosen = None
 token = None
+<<<<<<< Updated upstream
 
 dm_user_ac = 0
 dm_mons_ac = 0
@@ -97,6 +98,12 @@ re_hp = 0
 vol_hp = 0
 re_mp = 0
 vol_mp = 0
+=======
+emoji = None
+vote = None
+emoji_user = defaultdict(dict)
+vote_content = defaultdict(dict)
+>>>>>>> Stashed changes
 
 PASSCORD = "3310"
 
@@ -113,7 +120,13 @@ async def on_ready():
     global weapon_stat
     global kosen
     global token
+<<<<<<< Updated upstream
     us = open('user_stat.json', 'r',  encoding='utf-8')
+=======
+    global emoji
+    global vote
+    us = open('user_stat.json', 'r', encoding='utf-8')
+>>>>>>> Stashed changes
     user_stat = json.load(us)
     ms = open('monster_stat.json', 'r', encoding='utf-8')
     monster_stat = json.load(ms)
@@ -130,6 +143,15 @@ async def on_ready():
     en.close()
     ws.close()
     ks.close()
+<<<<<<< Updated upstream
+=======
+    ej = open('emoji.json', 'r')
+    emoji = json.load(ej)
+    ej.close()
+    vo = open('vote.json', 'r')
+    vote = json.load(vo)
+    vo.close()
+>>>>>>> Stashed changes
 
 def file_len(fname):
     with open(fname) as f:
@@ -295,11 +317,115 @@ async def on_message(message):
         global result
         global user_id
         user_id = str(message.author.id)
+<<<<<<< Updated upstream
+=======
+        #初期データ
+        starter = {
+            "official": {
+                "\u4e00\u822c\u5f79\u8077": []
+            },
+            "rpg": {
+                "rpg_trigger": {
+                    "main": 0,
+                    "vt": 0,
+                    "mp_pass": 0,
+                    "mp_pass_user": 0,
+                    "magic_flag": 0,
+                    "magic_flag_user": 0,
+                    "down_mp": 0,
+                    "down_mp_user": 0,
+                    "user_turn": 0,
+                    "monster_turn": 0,
+                    "turn_system": 0,
+                    "escape_trigger": 0,
+                    "item_trigger": 0,
+                    "place_trigger": 0,
+                    "re_hp": 0,
+                    "re_mp": 0,
+                    "Lv_up": 0,
+                    "distance_trigger": 0
+                 },
+                 "job": "NEET",
+                 "job_lv": 1,
+                 "Lv": 1,
+                 "HP": 5,
+                 "ch_user_hp": 5,
+                 "MP": 3,
+                 "ch_user_mp": 3,
+                 "STR": 2,
+                 "ch_user_str": 2,
+                 "DEF": 1,
+                 "ch_user_def": 1,
+                 "MSR": 1,
+                 "ch_user_msr": 1,
+                 "MDF": 1,
+                 "ch_user_mdf": 1,
+                 "SPD": 3,
+                 "ch_user_spd": 3,
+                 "item": {
+                    "Medicinal_herbs": 1
+                 },
+                 "have weapon": [
+                    "\u7d20\u624b"
+                 ],
+                 "weapon": "\u7d20\u624b",
+                 "magic_way": [],
+                 "skill_way": [],
+                 "EXP": 0,
+                 "G": 0,
+                 "place": "家",
+                 "vtr": 0,
+                 "ch_monster_hp": 0,
+                 "ch_monster_mp": 0,
+                 "ch_monster_str": 0,
+                 "ch_monster_def": 0,
+                 "ch_monster_msr": 0,
+                 "ch_monster_mdf": 0,
+                 "ch_monster_spd": 0,
+                 "vol_hp": 0,
+                 "vol_mp": 0,
+                 "dm_user_ac": 0,
+                 "dm_mons_ac": 0,
+                 "up_hp_user": 0,
+                 "up_mp_user": 0,
+                 "up_str_user": 0,
+                 "up_def_user": 0,
+                 "up_msr_user": 0,
+                 "up_mdf_user": 0,
+                 "up_spd_user": 0,
+                 "way_user": 0,
+                 "way_user_name": 0,
+                 "way_monster_name": 0,
+                 "monster_name": 0,
+                "distance": 0
+              },
+              "trigger": {
+                  "ques": 0,
+                  "exchange": 0,
+                 "janken": 0,
+                 "data": 1,
+                 "rpg": 0,
+                 "\u5f79\u8077\u6c7a\u3081": 0
+              },
+              "casino": {
+                 "coin": 5,
+                 "cost": 0
+              },
+              "janken": {
+                 "result": 0,
+                 "result_count": [
+                    0,
+                    0
+                 ],
+                 "bot_pon_number": 0
+              },
+            "question": {
+                "content": []
+            }
+        }
+>>>>>>> Stashed changes
 
-        if message.channel.id in client.get_all_channels() == 0:
-            print("全く、Botに世知辛い世の中だぜっ。")
-            return
-
+        #データの有無
         try:
             if not user_stat[user_id]["trigger"]["data"] == 0:
                 pass
@@ -308,6 +434,7 @@ async def on_message(message):
             user_stat[user_id] = user_stat["Starter"].copy()
 
         finally:
+            #初期設定
             if text == "/set.server":
 
                 if message.author.guild_permissions.administrator:
@@ -325,14 +452,50 @@ async def on_message(message):
                 else:
                     await message.channel.send("サーバーの管理者が操作してください。")
 
+        #要改良
+        if text == "/save.vote":
+            with open('vote.json', "w") as w:
+                json.dump(vote_content, w, indent=3)
+            await message.channel.send("投票のセーブが完了しました。")
+
+        #ユーザーデータセーブ
         if text == "/save":
             with open('user_stat.json', "w") as f:
                 json.dump(user_stat, f, indent=3)
             await message.channel.send("セーブが完了しました。")
 
+<<<<<<< Updated upstream
         if re.search("じゃんけん", text) and rpg == 0 and free == 0:
             global jan
             global bot_pon_number
+=======
+        #じゃんけん
+        if re.search("じゃんけん", text) and user_stat[user_id]["trigger"]["rpg"] == 0:
+            await message.channel.send("あなたのcoin:{0}\n掛け金を入力してください。\n(掛け金は5以下)"
+                                       .format(user_stat[user_id]["casino"]["coin"]))
+            user_stat[user_id]["trigger"]["janken"] = 1
+            return
+
+        if user_stat[user_id]["trigger"]["janken"] == 1:
+
+            if text == "/cancel":
+                await message.channel.send("キャンセルしました。")
+                user_stat[user_id]["trigger"]["janken"] = 0
+                return
+
+            cost = int(text)
+            user_stat[user_id]["casino"]["cost"] = cost
+            if cost > user_stat[user_id]["casino"]["coin"] or cost > 5:
+                await message.channel.send("掛け金が大きすぎます。")
+                return
+
+            elif cost == 0:
+                await message.channel.send("掛け金を0にはできません。")
+                return
+
+            user_stat[user_id]["trigger"]["janken"] = 2
+            pass
+>>>>>>> Stashed changes
 
             if jan == 0:
                 await message.channel.send("じゃーんけーん\n```ぐー\nちょき\nぱー```")
@@ -428,6 +591,7 @@ async def on_message(message):
                 await message.channel.send("またね！")
                 return
 
+        #製作者
         if message.author.id == 432897451209261057:
             global PASSCORD
             global off
@@ -456,7 +620,7 @@ async def on_message(message):
                     await message.channel.send("(ﾟ∀ﾟ)ｱﾋｬ")
 
             if text == "/logout@home":
-                await message.channel.send("パスコードを入力してください。")
+                await message.channel.send("\パスコードを入力してください。")
                 Passcord = input("Please Enter Passcord:")
 
                 if Passcord == PASSCORD:
@@ -489,12 +653,7 @@ async def on_message(message):
                     off = 0
                     return
 
-            # if text.startswith("/tes"):
-            #     await VoiceClient.connect(client.get_channel("604527782977863700"))
-            #
-            #     # player = await voice.create_ytdl_player(find_text_start_from("url:", text))
-            #     # player.start()
-
+        #役職表示
         if text == "/roles":
             d = []
             for i in message.author.roles:
@@ -508,8 +667,15 @@ async def on_message(message):
             d = "\n".join(d)
             await message.channel.send(d)
 
+<<<<<<< Updated upstream
         try:
             if text == "/role" and user_stat[user_id]["trigger"]["役職決め"] == 0:
+=======
+        #kosen19s専用役職設定
+        if text == "/role":
+            user_stat[user_id]["trigger"]["役職決め"] = 0
+            try:
+>>>>>>> Stashed changes
                 for i in user_stat[user_id]["official"]["一般役職"]:
                     d = discord.utils.get(message.guild.roles, name=i)
                     await message.author.remove_roles(d)
@@ -666,6 +832,7 @@ async def on_message(message):
                 data = 1
                 return
 
+<<<<<<< Updated upstream
             global vote
             if text.startswith("/ques") and vote == 0:
                 vote = 1
@@ -679,6 +846,16 @@ async def on_message(message):
                     a = len(anc)
                     A = 1
                     Q = find_text_start_from("Q:", text)
+=======
+        #ヘルプ
+        if text == "/help":
+            with open('readme.txt', 'r') as a:
+                d = a.read()
+                await message.channel.send("```{0}```".format(d))
+
+        #個人データリセット
+        if text == "/reset" and user_stat[user_id]["trigger"]["rpg"] == 0:
+>>>>>>> Stashed changes
 
                     for i in range(a):
                         anc.append(str(A) + ":" + find_text_start_from(str(A) + ":", text))
@@ -694,8 +871,17 @@ async def on_message(message):
                     for name in anc:
                         await message.channel.send(name)
 
+<<<<<<< Updated upstream
                     if HOUR >= 1 and 0 <= MINT <= 59:
                         await message.channel.send("投票期間は{0}時間{1}分です。".format(hour, mint))
+=======
+        #RPGコイン→カジノコインの変換
+        if text == "/exchange":
+            await message.channel.send("G:{0}\n10G→1coinです。\nいくら交換しますか？(coin数)"
+                                       .format(user_stat[user_id]["rpg"]["G"]))
+            user_stat[user_id]["trigger"]["exchange"] = 1
+            return
+>>>>>>> Stashed changes
 
                     elif HOUR == 0 and 1 <= MINT <= 59:
                         await message.channel.send("投票期間は{0}分です。".format(mint))
@@ -720,6 +906,7 @@ async def on_message(message):
                         select = 0
                         return
 
+<<<<<<< Updated upstream
                     else:
                         return
 
@@ -769,6 +956,103 @@ async def on_message(message):
                 hour = datetime.now().strftime("%H")
                 minute = datetime.now().strftime("%M")
                 H = int(hour)
+=======
+        #投票設定キャンセル
+        if text == "/cancel" and user_stat[user_id]["trigger"]["ques"] > 0:
+            user_stat[user_id]["trigger"]["ques"] = 0
+            await message.channel.send("投票設定を中止しました。")
+            return
+
+        #投票
+        if text.startswith("/vote") and user_stat[user_id]["trigger"]["ques"] == 0:
+            user_stat[user_id]["question"]["content"] = []
+            user_stat[user_id]["trigger"]["ques"] = user_stat[user_id]["trigger"]["ques"] + 1
+            await message.channel.send("投票のタイトルを入力してください。")
+            return
+
+        if user_stat[user_id]["trigger"]["ques"] == 1:
+            user_stat[user_id]["trigger"]["ques"] = user_stat[user_id]["trigger"]["ques"] + 1
+            user_stat[user_id]["question"]["content"].append(text)
+            await message.channel.send("投票候補を入力してください。\n入力を終えたら/next。")
+            return
+
+        if user_stat[user_id]["trigger"]["ques"] == 2:
+            if text == "/next":
+                if len(user_stat[user_id]["question"]["content"]) == 1:
+                    await message.channel.send("少なくとも一つは投票候補を入力してください。")
+                    return
+                user_stat[user_id]["trigger"]["ques"] = user_stat[user_id]["trigger"]["ques"] + 1
+                await message.channel.send("何時間？(半角英数)")
+                return
+            user_stat[user_id]["question"]["content"]\
+                .append(text + emoji["emoji"][len(user_stat[user_id]["question"]["content"]) - 1])
+            await message.channel.send("今の投票候補数：{0}"
+                                       .format(len(user_stat[user_id]["question"]["content"]) - 1))
+            return
+
+        if user_stat[user_id]["trigger"]["ques"] == 3:
+            if text.isdecimal() == 1:
+                user_stat[user_id]["trigger"]["ques"] = user_stat[user_id]["trigger"]["ques"] + 1
+                user_stat[user_id]["question"]["content"].append(text)
+                await message.channel.send("何分？")
+                return
+            else:
+                await message.channel.send("((半角英数字で))")
+                return
+
+        if user_stat[user_id]["trigger"]["ques"] == 4:
+            if text.isdecimal() == 1:
+                user_stat[user_id]["trigger"]["ques"] = 0
+                d = []
+                e = []
+                user_stat[user_id]["trigger"]["ques"] = 0
+                user_stat[user_id]["question"]["content"].append(text)
+                d.append(user_stat[user_id]["question"]["content"][0])
+                a = 1
+                for i in user_stat[user_id]["question"]["content"][1:len(user_stat[user_id]["question"]["content"]) - 2]:
+                    d.append("{0}.{1}".format(a, i))
+                    a = a + 1
+                for i in user_stat[user_id]["question"]["content"][len(user_stat[user_id]["question"]["content"]) - 2:
+                                                                   len(user_stat[user_id]["question"]["content"])]:
+                    e.append(i)
+                H = int(e[0])
+                M = int(e[1])
+                T = H * 3600 + M * 60
+                d.append("投票期間は{0}時間{1}分です。".format(H, M))
+                map(str, d)
+                dd = "\n".join(d)
+                msg = await message.channel.send(dd)
+                await msg.pin()
+                vote_content[str(msg.id)]["vote"] = []
+                a = 0
+                for i in range(len(user_stat[user_id]["question"]["content"]) - 3):
+                    await msg.add_reaction(emoji["emoji"][a])
+                    a = a + 1
+                await asyncio.sleep(T)
+                try:
+                    result = [i for i in d if i.endswith(max(vote_content[str(msg.id)]["vote"]))]   #要改良
+                    await message.channel.send\
+                        ("{0}という投票で\n一番得票が多かったのは\n**{1}**でした！\n総投票数：{2}"
+                         .format(d[0], result[0], len(vote_content[str(msg.id)]["vote"])))
+
+                except:
+                    await message.channel.send("この投票では一番は決まりませんでした。\n総投票数：{0}"
+                                               .format(len(vote_content[str(msg.id)]["vote"])))
+
+                finally:
+                    await msg.unpin()
+                    return
+
+            else:
+                await message.channel.send("((半角英数字で))")
+                return
+
+        #時間
+        if text == "/now":
+            hour = datetime.now().strftime("%H")
+            minute = datetime.now().strftime("%M")
+            H = int(hour)
+>>>>>>> Stashed changes
 
                 if client.user != message.author:
 
@@ -784,7 +1068,12 @@ async def on_message(message):
                     await message.channel.send("{0}{1}:{2}です".format(x, hour, minute))
                     return
 
+<<<<<<< Updated upstream
             if text.startswith("/timer"):
+=======
+        #タイマー
+        if text.startswith("/timer"):
+>>>>>>> Stashed changes
 
                 try:
 
@@ -841,6 +1130,7 @@ async def on_message(message):
                     await message.channel.send("喋ります！")
                     return
 
+<<<<<<< Updated upstream
                 else:
                     free = 0
                     await message.channel.send("黙ります。")
@@ -863,6 +1153,11 @@ async def on_message(message):
             #     except:
             #         await message.channel.send("エラー。")
             #         return
+=======
+        if text == "/test":
+            print(vote_content)
+            print(emoji_user)
+>>>>>>> Stashed changes
 
         if text == "/gaaaaaaa_na":
             if gana == 0:
@@ -883,8 +1178,13 @@ async def on_message(message):
             await message.channel.send("おはようございます" + message.author.name + "さん！")
             return
 
+<<<<<<< Updated upstream
         elif re.search("こんに",text) and rpg == 0:
             await message.channel.send( "こんにちは" + message.author.name + "さん！")
+=======
+        elif re.search("こんに", text) and user_stat[user_id]["trigger"]["rpg"] == 0:
+            await message.channel.send("こんにちは" + message.author.name + "さん！")
+>>>>>>> Stashed changes
             return
 
         elif re.search("こんば",text) and rpg == 0:
@@ -1145,6 +1445,7 @@ async def on_message(message):
                         mp_pass = 0
                         dm_user_ac = attack_monster(monster_stat,monster_name)              # ユーザーダメージ蓄積
 
+<<<<<<< Updated upstream
                         if dm_user_ac > 0:
 
                             if magic_flag == 0:
@@ -1281,5 +1582,51 @@ async def on_message(message):
                             return
 
 with open('C:/Users/st158/OneDrive/ドキュメント/Python Scripts/Token.json', 'r') as f:
+=======
+@client.event
+async def on_reaction_add(reaction, user):
+    global user_id_reaction
+    user_id_reaction = str(user.id)
+    if user_id_reaction == str(client.user.id):
+        return
+    message = reaction.message
+    message_id_reaction = str(message.id)
+    if message_id_reaction not in emoji_user[user_id_reaction]:
+        emoji_user[user_id_reaction][message_id_reaction] = reaction.emoji
+        try:
+            vote_content[message_id_reaction]["vote"].append(reaction.emoji)
+        except:
+            return
+        print("bbb")
+
+    else:
+        await message.remove_reaction(emoji_user[user_id_reaction][message_id_reaction], user)
+        try:
+            vote_content[message_id_reaction]["vote"].remove(emoji_user[user_id_reaction][message_id_reaction])
+        except:
+            return
+        emoji_user[user_id_reaction][message_id_reaction] = reaction.emoji
+        try:
+            vote_content[message_id_reaction]["vote"].append(reaction.emoji)
+        except:
+            return
+        print("ccc")
+
+@client.event
+async def on_reaction_remove(reaction, user):
+    global user_id_reaction
+    user_id_reaction = str(user.id)
+    message = reaction.message
+    message_id_reaction = str(message.id)
+    if emoji_user[user_id_reaction][message_id_reaction] == reaction.emoji:
+        try:
+            vote_content[message_id_reaction]["vote"].remove(emoji_user[user_id_reaction][message_id_reaction])
+        except:
+            return
+        del emoji_user[user_id_reaction][message_id_reaction]
+        print("ddd")
+
+with open('C:/Users/st158/OneDrive/ドキュメント/Python Scripts/Token.json', 'r', encoding='utf-8') as f:
+>>>>>>> Stashed changes
     bot_token = json.load(f)
     client.run(bot_token["Botton"]["token"])
